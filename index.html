@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jairo Agüero</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap">
+    <script src="https://kit.fontawesome.com/bf4c1bb856.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <!--*****************NavBar*****************-->
+    <header>
+        <nav class="navBar">
+            <a href="#AboutMe" class="navBar__links ">AboutMe</a>
+            <a href="#Skills" class="navBar__links">Skills</a>
+            <a href="#Projects" class="navBar__links">Projects</a>
+            <a href="#ContactMe" class="navBar__links">Contact Me</a>
+        </nav>
+        <!--Responsive NavBar-->
+        <nav class="responsive-nav">
+            <div class="navBar-responsive">
+                <div class="navbar-logo">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </div>
+            <div class="links">
+                <a href="#AboutMe" class="links__responsive">AboutMe</a>
+                <a href="#Skills" class="links__responsive">Skills</a>
+                <a href="#Projects" class="links__responsive">Projects</a>
+                <a href="#ContactMe" class="links__responsive">Contact Me</a>
+            </div>
+        </nav>
+
+    </header>
+    <!--*****************NavBar*****************-->
+    <main class="site-main">
+        <!--*****************Banner*****************-->
+        <section>
+            <div class="banner banner-load">
+                <div class="banner__title">
+                    <h3>I'm</h3>
+                    <h1>Jairo Agüero</h1>
+                    <h4 id="typetxt">COMPUTER SCIENCE</h4>
+                    <div class="banner__button">
+                        <a href="/PDF/Jairo Agüero CV.pdf" target="_blank">
+                            <button type="button" class="button">Get Resume</button>
+                        </a>
+                        <a href="https://github.com/JairoAD" target="_blank">
+                            <button type="button" class="secButton">My GitHub</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="banner__image">
+                    <img src="./Images/banner-image.png">
+                </div>
+            </div>
+        </section>
+        <!--*****************Banner Area*****************-->
+
+        <!--*****************About Area*****************-->
+        <section><a name="AboutMe"></a>
+            <div class="about-area">
+                <div class="about-area__img">
+                    <img src="./Images/about-img.png" alt="">
+                </div>
+                <div class="about-area__text">
+                    <div class="about-area__title">
+                        <span>Let me</span>
+                        <span>Introduce</span>
+                        <span>Myself</span>
+                    </div>
+                    <div class="about-area__paragraph paragraph">
+                        <p>
+                            Computer Science in software development
+                            technician focused in Front End development.
+                            Great Knowledge of HTML, CSS and JavaScript.
+                            Actually, I'm learning and practicing new technologies
+                            to improve my development skills.
+                        </p>
+                        <a href="/PDF/Jairo Agüero CV.pdf" target="_blank"><button type="button"
+                                class="button about-area__button">Download Resume</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--*****************About Area*****************-->
+
+        <!--*****************Skills Area*****************-->
+        <section><a name="Skills"></a>
+            <div class="skills-area">
+                <div class="skills-area__text">
+                    <div class="skills-area__title">
+                        <span>My</span><br>
+                        <span>Skills</span>
+                    </div>
+                    <div class="skills-area__paragraph">
+                        <p>
+                            Great Knowledge of <b>HTML, CSS and JS</b>, also Knowledge of <b>PHP, C++,
+                                Visual Basic, Java and SQL</b>.
+                            Cisco Netacad certifications: IT essentials, IoT, Get Connected, Linux Unhatched.
+                            UTN certifications: Writer and Calc courses.
+                        </p>
+                    </div>
+                </div>
+                <div class="skills-area__logos">
+                    <div class="logo">
+                        <img src="/Images/logo-html.svg" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="/Images/logo-css.svg" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="/Images/logo-js.svg" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="/Images/logo-c++.svg" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="/Images/logo-php.svg" alt="">
+                    </div>
+                    <div class="logo">
+                        <img src="/Images/logo-java.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--*****************Skills Area*****************-->
+
+        <section><a name="Projects"></a>
+            <div class="project-title">
+                <span>Projects
+                </span>
+            </div>
+            <div class="project">
+                <div class="project__cards">
+                    <div class="project__card-face front">
+                        <span>Web Paint</span>
+                    </div>
+                    <div class="project__card-face back">
+                        <div class="project__card-content">
+                            <div class="project__card-header image">
+                                <img src="/Images/project-webPaint.png" alt="" class="project-img">
+                                <span>Web Paint</span>
+                            </div>
+                            <div class="project__card-body">
+                                <span>
+                                    A web paint created using canvas element.
+                                </span>
+                                <a href="https://JairoAD.github.io/Canvas/canvas.html" target="_blank"><button type="button"
+                                    class="button projects__button">Visit</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__cards">
+                    <div class="project__card-face front">
+                        <span>Task List</span>
+                    </div>
+                    <div class="project__card-face back">
+                        <div class="project__card-content">
+                            <div class="project__card-header image">
+                                <img src="/Images/project-taskList.png" alt="" class="project-img">
+                                <span>Task List</span>
+                            </div>
+                            <div class="project__card-body">
+                                <span>
+                                    A CRUD app using IndexedDB
+                                </span>
+                                <a href="https://JairoAD.github.io/CRUD/CRUD.html" target="_blank"><button type="button"
+                                    class="button projects__button">Visit</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project__cards">
+                    <div class="project__card-face front">
+                        <span>Movie App</span>
+                    </div>
+                    <div class="project__card-face back">
+                        <div class="project__card-content">
+                            <div class="project__card-header image">
+                                <img src="/Images/project-movie.png" alt="" class="project-img">
+                                <span>Movie App</span>
+                            </div>
+                            <div class="project__card-body">
+                                <span>
+                                    SPA that show you movies information using TMDB API
+                                </span>
+                                <a href="https://JairoAD.github.io/movieApp/movieApp.html" target="_blank"><button type="button"
+                                    class="button projects__button">Visit</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--*****************Contact Area*****************-->
+        <section><a name="ContactMe"></a>
+            <div class="contact-area">
+                <div class="contact-form">
+                    <div class="contact-area__title">
+                        <span>Contact</span>
+                        <span>Me</span>
+                    </div>
+                    <form action="https://formsubmit.co/jairojohel@gmail.com" method="POST" class="form">
+                        <input type="text" name="name" value="" class="form__input" placeholder="Name"
+                            autocomplete="off" required>
+                        <input type="email" name="email" value="" class="form__input" placeholder="Email"
+                            autocomplete="off" required>
+                        <textarea name="msg" class="form__textarea" placeholder="Message" required></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://JairoAD.github.io/Email-page/email.html">
+                        <button type="submit" class="form__button button">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--*****************Contact Area*****************-->
+
+        <!--*****************Footer Area*****************-->
+        <footer>
+            <div class="footer-area">
+                <div class="footer-area__title">
+                    <span> Jairo Agüero Díaz</span>
+                </div>
+                <div class="footer-area__icons">
+                    <a href="https://github.com/JairoAD" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:jairojohel@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://wa.me/50683603670" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!--*****************End Footer Area*****************-->
+    </main>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
